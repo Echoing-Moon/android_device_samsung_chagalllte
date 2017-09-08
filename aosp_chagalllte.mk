@@ -5,7 +5,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 $(call inherit-product, device/samsung/chagalllte/device.mk)
 
 # Inherit more LineageOS stuff.
-$(call inherit-product, vendor/cm/config/telephony.mk)
+#$(call inherit-product, vendor/cm/config/telephony.mk)
 
 PRODUCT_NAME := aosp_chagalllte
 PRODUCT_DEVICE := chagalllte
