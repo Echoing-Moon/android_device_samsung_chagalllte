@@ -65,5 +65,8 @@ BOARD_HARDWARE_CLASS := $(COMMON_PATH)/cmhw
 # Audio
 TARGET_AUDIOHAL_VARIANT := samsung
 
+# Disable JACK
+ANDROID_COMPILE_WITH_JACK := false
+
 # Inherit from exynos5420-common
 include device/samsung/exynos5420-common/BoardConfigCommon.mk
