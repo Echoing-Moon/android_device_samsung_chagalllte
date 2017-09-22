@@ -21,7 +21,7 @@ BOARD_VENDOR := samsung
 TARGET_SOC := exynos5420
 
 # RIL
-BOARD_PROVIDES_LIBRIL := true
+#BOARD_PROVIDES_LIBRIL := true
 # hardware/samsung/ril
 #BOARD_MODEM_TYPE := xmm7260
 # RIL.java overwrite
